@@ -168,4 +168,8 @@ app.post('/api/pdf', (req, res) => {
     res.send(fileLink)
 })
 
-app.listen(3030, () => console.log('Server running on port 3030!'))
+const PORT = process.env.PORT || 3030
+
+app.listen(PORT, () =>
+  console.log(`Server listening on port http://127.0.0.1:${PORT}/`)
+)
