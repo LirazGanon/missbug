@@ -1,0 +1,23 @@
+{
+  "name": "day42-nodejsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --ignore \"./data\" server.js",
+    "watch": "nodemon --ignore public --ignore \"./data\" server.js"
+  },
+  "author": "Liraz",
+  "license": "ISC",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "^1.4.6",
+    "cryptr": "^6.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "livereload": "^0.9.3",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0",
+    "require": "^2.4.20"
+  }
+}

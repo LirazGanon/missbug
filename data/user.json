@@ -1,0 +1,27 @@
+[
+  {
+    "username": "puki123Jq",
+    "password": "jQ1235",
+    "fullname": "Nadav JQ",
+    "_id": "wCxCM",
+    "isAdmin": true
+  },
+  {
+    "username": "guli",
+    "password": "buli",
+    "fullname": "Guli Yat",
+    "_id": "Vv58l"
+  },
+  {
+    "fullname": "Puki Ga",
+    "username": "puki",
+    "password": "secret",
+    "_id": "zQuW7"
+  },
+  {
+    "fullname": "Muki Ba",
+    "username": "muki",
+    "password": "secret",
+    "_id": "iFeco"
+  }
+]
